@@ -1,70 +1,159 @@
-# Getting Started with Create React App
+# Task Manager – Full Stack Web & Mobile Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack Task Manager application built with **React JS**, **ASP.NET Core Web API**, and **MySQL**.
 
-## Available Scripts
+The application allows users to securely log in, manage tasks, view task status, manage their profile, and perform other task-management operations through a modern responsive UI.
 
-In the project directory, you can run:
+## 🚀 Tech Stack
 
-### `npm start`
+### Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* React JS
+* React Router
+* Axios
+* Formik
+* Tailwind CSS
+* React Icons
+* Capacitor
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend
 
-### `npm test`
+* ASP.NET Core Web API
+* C#
+* Entity Framework Core
+* JWT Authentication
+* Repository Pattern
+* Swagger
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Database
 
-### `npm run build`
+* MySQL
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Mobile
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Capacitor
+* Android
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✨ Features
 
-### `npm run eject`
+* User Registration & Login
+* JWT-based Authentication
+* Secure API communication
+* Create Tasks
+* Edit Tasks
+* Delete Tasks
+* View Tasks
+* Filter Tasks by Status
+* User Profile
+* Change Password
+* Responsive UI
+* Android application support
+* RESTful Web API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```text
+TaskManager-F/
+│
+├── Frontend/
+│   ├── src/
+│   ├── public/
+│   ├── android/
+│   ├── package.json
+│   └── capacitor.config.ts
+│
+├── Backend/
+│   ├── Controllers/
+│   ├── Repository/
+│   ├── Models/
+│   ├── Services/
+│   └── Program.cs
+│
+└── README.md
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🖥️ Frontend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The frontend is developed using React JS.
 
-## Learn More
+It communicates with the ASP.NET Core Web API using Axios and provides the user interface for authentication, task management, profile management, and other application features.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The backend is developed using ASP.NET Core Web API.
 
-### Code Splitting
+It provides REST APIs for:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Authentication
+* User management
+* Task management
+* Profile management
+* Password management
 
-### Analyzing the Bundle Size
+JWT authentication is used to secure API endpoints.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🗄️ Database
 
-### Making a Progressive Web App
+The application uses MySQL as its relational database.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Entity Framework Core is used for database communication and data management.
 
-### Advanced Configuration
+## 📱 Android Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The React application is also configured with Capacitor for Android.
 
-### Deployment
+The same application can be packaged and run as an Android application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ▶️ Run Frontend
 
-### `npm run build` fails to minify
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install
+```
+
+Start the React development server:
+
+```bash
+npm start
+```
+
+The frontend will normally run at:
+
+```text
+http://localhost:3000
+```
+
+## ▶️ Run Backend
+
+Open the backend project in Visual Studio and run the ASP.NET Core Web API.
+
+Swagger can be used to test the available API endpoints during development.
+
+## 🔐 Authentication
+
+The application uses JWT (JSON Web Token) authentication.
+
+After successful login, the authenticated user can access protected application features and APIs.
+
+## 📸 Screenshots
+
+Screenshots of the application UI can be added here.
+
+## 🌐 Live Demo
+
+Coming soon.
+
+## 👨‍💻 Developer
+
+**Mohammad Kaif**
+
+Full Stack Developer
+
+## 📌 Project Status
+
+The project is under active development and deployment.
+
+---
+
+⭐ If you find this project useful, feel free to explore the source code.
