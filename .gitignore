@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ASP.NET Core / .NET
+**/bin/
+**/obj/
+**/.vs/
+**/*.csproj.user
+
+# Local configuration / secrets
+**/appsettings.json
+**/appsettings.Development.json
