@@ -31,3 +31,6 @@ yarn-error.log*
 # Local configuration / secrets
 **/appsettings.json
 **/appsettings.Development.json
+
+# Published backend output
+**/publish/
