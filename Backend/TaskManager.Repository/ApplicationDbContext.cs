@@ -17,11 +17,12 @@ namespace TaskManager.Repository
         {
 
         }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+    base.OnModelCreating(modelBuilder);
 
-        }
+    modelBuilder.Entity<TaskManagers>().ToTable("taskmanagers");
+}
          public DbSet<TaskManagers> TaskManagers { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
